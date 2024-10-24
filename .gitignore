@@ -1,0 +1,18 @@
+# Node artifacts
+/dist/
+node_modules/
+/package-lock.json
+
+# package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# IDE artifacts
+.idea
+.vscode
+
+# OS artifacts
+.DS_Store

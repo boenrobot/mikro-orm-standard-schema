@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": ["./test"],
+    "compilerOptions": {
+        "noEmit": false,
+        "tsBuildInfoFile": "./dist/.tsbuildinfo" /* Specify the path to .tsbuildinfo incremental compilation file. */,
+        "rootDir": "./src" /* Specify the root folder within your source files. */,
+        "outDir": "./dist" /* Specify an output folder for all emitted files. */
+    }
+}
